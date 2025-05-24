@@ -51,7 +51,7 @@ int main() {
 
     if (opciones != 5) {
         digitar_numero(x, y);
-        
+        //rango de operaciones
         if (opciones >= 1 && opciones <= 4) {
             // Usar el puntero a función correspondiente
             respuesta = operaciones[opciones-1](x, y);
